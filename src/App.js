@@ -7,7 +7,7 @@ import Main from "./Main";
 function App() {
   return (
     <div className="App">
-    <div><a href='#' alt="">Read Tesla's 2021 Impact Report</a></div>
+    <div className='banner'><a href="#" alt="">Read Tesla's 2021 Impact Report</a></div>
     <Header />
     <Main />
     <Footer />
