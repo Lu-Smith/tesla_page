@@ -1,0 +1,29 @@
+.Header .logo {
+  width: 100px;
+}
+
+.Header .top-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 56px;
+    font-weight: 550;
+}
+
+.Header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+
+.Header li{
+    padding-left: 25px;
+}
+
+
+@media (max-width: 1250px) {
+    .Header .middle-header {
+        display: none;
+    }
+}
+
