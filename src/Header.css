@@ -1,5 +1,6 @@
 .Header .logo {
   width: 100px;
+  
 }
 
 .Header .top-header{
@@ -7,6 +8,9 @@
     justify-content: space-between;
     padding: 10px 56px;
     font-weight: 550;
+    position: relative;
+    z-index: 999;
+    
 }
 
 .Header ul{

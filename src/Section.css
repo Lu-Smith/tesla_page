@@ -1,3 +1,9 @@
+.Section {
+    position: relative;
+    bottom: 146px;
+    z-index: 1;
+}
 .Section img {
+    height: vh;
     width: 100%;
 }
