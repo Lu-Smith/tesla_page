@@ -2,7 +2,7 @@
 
 .Section {
     position: relative;
-    bottom: 300px;
+    bottom: 100px;
     z-index: 1;
     height: vh;
 }

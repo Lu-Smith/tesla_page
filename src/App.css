@@ -3,12 +3,14 @@
 }
 
 .App .banner {
+  position: fixed;
+  width: 100%;
   box-shadow: 0 0 1px #d0d1d2;
   height: 52px;
   padding: 15px;
-  position: relative;
     z-index: 999;
     background-color: #FFFFFF;
+    
 }
 
 .App a {
