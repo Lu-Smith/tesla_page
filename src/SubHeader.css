@@ -1,0 +1,42 @@
+
+.SubHeader .title {
+    padding: 0 24px;
+    color: #171A20;
+    font-size: 40px;
+}
+
+.SubHeader .subtitle {
+    padding: 6px 24px 14px;
+    color: #171A20;
+    font-size: 14px;
+}
+
+.SubHeader .sub-header {
+  position: relative;
+  top: 600px;
+
+}
+
+.SubHeader .custom-order {
+    padding: 4px 24px;
+    color: #fff;
+    background-color: #13171D;
+    border: none;
+    font-size: 12px;
+    width: 260px;
+    height: 40px;
+    line-height: 1.2;
+    border-radius: 25px;
+}
+
+.SubHeader .test-drive {
+    padding: 4px 24px;
+    color: #808285;
+    background-color: #F4F4F4A6;
+    border: none;
+    font-size: 12px;
+    width: 260px;
+    height: 40px;
+    line-height: 1.2;
+    border-radius: 25px;
+}

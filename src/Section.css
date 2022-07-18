@@ -1,9 +1,16 @@
+
+
 .Section {
     position: relative;
-    bottom: 146px;
+    bottom: 300px;
     z-index: 1;
-}
-.Section img {
     height: vh;
-    width: 100%;
+}
+
+.image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
