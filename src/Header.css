@@ -9,32 +9,37 @@
     z-index: 999;
 }
 
-.Header .logo {
-  width: 100px;
-  
-}
 
 .Header .top-header{
     display: flex;
     justify-content: space-between;
     padding: 15px 56px;
-    font-weight: 550;
-    
-    
+    font-weight: 550; 
     
 }
 
+.Header .logo {
+    width: 120px;
+    cursor: pointer;
+  }
+
 .Header ul{
     display: flex;
+    
     justify-content: space-between;
     list-style: none;
     
 }
 
 .Header li{
-    padding-left: 25px;
+    padding: 8px 13px;
+    cursor: pointer;
 }
 
+.Header li:hover {
+    background-color: #E1EAF1;
+    border-radius: 15px;
+}
 
 @media (max-width: 1250px) {
     .Header .middle-header {
