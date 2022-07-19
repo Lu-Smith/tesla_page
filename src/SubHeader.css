@@ -11,28 +11,37 @@ text-align: center;
     padding: 0 24px;
     color: #171A20;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 46px;
+    margin-bottom: 5px;
 
 }
 
 .SubHeader .subtitle {
     padding: 6px 24px 14px;
     color: #171A20;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .SubHeader .sub-header {
   position: relative;
-  top: 400px;
+  top: 500px;
 
+}
+.buttons {
+    width: 548px;
+    height: 40px;
+   display: flex;
+   margin: 0 auto;
+   justify-content: space-between;
+   margin-bottom: 30px;
 }
 
 .SubHeader .custom-order {
     padding: 4px 24px;
     color: #fff;
-    background-color: #13171D;
+    background-color: #171A20CC;
     border: none;
-    font-size: 12px;
+    font-size: 15px;
     width: 260px;
     height: 40px;
     line-height: 1.2;
@@ -44,9 +53,21 @@ text-align: center;
     color: #808285;
     background-color: #F4F4F4A6;
     border: none;
-    font-size: 12px;
+    font-size: 15px;
     width: 260px;
     height: 40px;
     line-height: 1.2;
     border-radius: 25px;
+    
+}
+
+.SubHeader .test-drive-link {
+    font-size: 14px;
+}
+
+.SubHeader .down-icon {
+    width: 20px;
+    margin: 0 auto;
+    opacity: 50%;
+    margin-top: 18px;
 }
